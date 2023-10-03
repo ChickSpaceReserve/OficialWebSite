@@ -1,5 +1,5 @@
 body{
-  background-image: url("../IMAGENS/teste.jpeg");
+  background-image: url("../IMAGENS/teste2.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -179,7 +179,7 @@ body{
 }
 
 .imagem-restaurante {
-  width: 150px;
+  max-width: 150px;
   height: auto;
   margin-left: auto;
 }
@@ -212,6 +212,9 @@ body{
   }
   .nome-restaurante {
     font-size: 14px;
+  }
+  .imagem-restaurante {
+    max-width: 120px;
   }
   .localizacao,
   .avaliacao,
